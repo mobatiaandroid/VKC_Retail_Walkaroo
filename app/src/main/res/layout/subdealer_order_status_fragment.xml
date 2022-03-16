@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnPending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+       
+        android:background="@drawable/rounded_rectangle_red"
+        android:gravity="center"
+        android:padding="10dp"
+      
+        android:text="Pending"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnApproved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_rectangle_red"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Approved"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <Button
+        android:id="@+id/btnRejected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_rectangle_red"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Rejected"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

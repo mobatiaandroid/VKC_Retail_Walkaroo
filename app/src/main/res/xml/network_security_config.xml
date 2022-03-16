@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" /><!--For allowing HTTP-->
+    <domain-config>
+        <domain includeSubdomains="true">mobile.walkaroo.in</domain>
+        <domain includeSubdomains="true">dev.mobatia.com</domain>
+        <domain includeSubdomains="true">retail.u4ic.com</domain>
+
+    </domain-config>
+</network-security-config>
