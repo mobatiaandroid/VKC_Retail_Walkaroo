@@ -1,0 +1,4 @@
+#Fri Mar 18 11:04:05 IST 2022
+base.0=/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

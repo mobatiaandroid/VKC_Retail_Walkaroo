@@ -35,6 +35,7 @@ import com.mobatia.vkcretailer.fragments.DealersRetailersAndDateFilter;
 import com.mobatia.vkcretailer.fragments.FeedbackFragment;
 import com.mobatia.vkcretailer.fragments.HomeFragment;
 import com.mobatia.vkcretailer.fragments.LocationFragment;
+import com.mobatia.vkcretailer.fragments.ProductListFragmentNew;
 import com.mobatia.vkcretailer.fragments.RecentOrdersFragment;
 import com.mobatia.vkcretailer.fragments.SalesHeadOrderList;
 import com.mobatia.vkcretailer.fragments.SalesOrderFragment;
@@ -52,6 +53,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentManager;
@@ -312,7 +314,7 @@ public class DashboardFActivity extends AppCompatActivity implements
     @SuppressLint("NewApi")
     public void setActionBar() {
         // Enable action bar icon_luncher as toggle Home Button
-        ActionBar actionBar = mContext.getSupportActionBar();
+        ActionBar actionBar = getSupportActionBar();
         actionBar.setSubtitle("");
         actionBar.setTitle("");
         actionBar.show();
@@ -379,7 +381,7 @@ public class DashboardFActivity extends AppCompatActivity implements
                                 long id) {
             // display view for selected item
             mNavDrawerItemIndex = position;
-            AppPrefenceManager.saveListingOption(this, "0");
+            AppPrefenceManager.saveListingOption(mContext, "0");
             if (position == 0) {
                 displayView(position);
             } else if (position == 1) {

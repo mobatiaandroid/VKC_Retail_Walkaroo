@@ -3,11 +3,19 @@
  */
 package com.mobatia.vkcretailer.activities;
 
-import java.util.ArrayList;
-import java.util.List;
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Gravity;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.mobatia.vkcretailer.R;
 import com.mobatia.vkcretailer.constants.VKCDbConstants;
@@ -19,30 +27,15 @@ import com.mobatia.vkcretailer.manager.VKCInternetManager;
 import com.mobatia.vkcretailer.manager.VKCInternetManager.ResponseListener;
 import com.mobatia.vkcretailer.miscellaneous.VKCUtils;
 
-import android.annotation.SuppressLint;
-
-import android.app.Activity;
-import android.content.Intent;
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.Gravity;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 /**
  * @author Archana S
  *
  */
 
-public class LoginActivity extends Activity implements OnClickListener,
+public class LoginActivity extends AppCompatActivity implements OnClickListener,
         VKCJsonTagConstants, VKCUrlConstants, VKCDbConstants {
 
     private EditText mUserName;

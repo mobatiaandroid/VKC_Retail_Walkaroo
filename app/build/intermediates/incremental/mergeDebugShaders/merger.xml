@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/debug/shaders"/></dataSet></merger>

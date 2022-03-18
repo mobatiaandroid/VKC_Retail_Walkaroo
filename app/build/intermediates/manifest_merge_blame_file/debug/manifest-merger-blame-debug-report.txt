@@ -1,0 +1,325 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mobatia.vkcretailer"
+4    android:versionCode="49"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:6:5-75
+12-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:6:22-72
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:7:5-79
+13-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:8:5-81
+14-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:9:5-80
+15-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="com.mobicarev6.permission.MAPS_RECEIVE" />
+16-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:10:5-78
+16-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:10:22-75
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:11:5-76
+17-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:11:22-73
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:12:5-81
+18-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:13:5-79
+19-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+20-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:14:5-98
+20-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:14:22-95
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] /home/mob-dt-and-04/.gradle/caches/transforms-3/ad70ecfbab326f3b87a33b2574d65a0c/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] /home/mob-dt-and-04/.gradle/caches/transforms-3/ad70ecfbab326f3b87a33b2574d65a0c/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] /home/mob-dt-and-04/.gradle/caches/transforms-3/ad70ecfbab326f3b87a33b2574d65a0c/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+25    <!--
+26<permission
+27        android:name="com.mobatia.vkcretailer.permission.C2D_MESSAGE"
+28        android:protectionLevel="signature" />
+29
+30    <uses-permission android:name="com.mobatia.vkcretailer.permission.C2D_MESSAGE" />
+31    &lt;!&ndash; App receives GCM messages. &ndash;&gt;
+32    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+33    &lt;!&ndash; GCM requires a Google account. &ndash;&gt;
+34    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+35    &lt;!&ndash; Keeps the processor from sleeping when a message is received. &ndash;&gt;
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+38    -->
+39    <application
+39-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:29:5-162:19
+40        android:name="com.mobatia.vkcretailer.controller.AppController"
+40-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:30:9-49
+41        android:allowBackup="true"
+41-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:31:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.2.0-alpha01] /home/mob-dt-and-04/.gradle/caches/transforms-3/a53157ab8ff3365fc55cb162d8841fd6/transformed/core-1.2.0-alpha01/AndroidManifest.xml:22:18-86
+43        android:debuggable="true"
+44        android:icon="@drawable/appicon"
+44-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:32:9-41
+45        android:label="@string/app_name"
+45-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:33:9-41
+46        android:logo="@drawable/backbutton"
+46-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:34:9-44
+47        android:networkSecurityConfig="@xml/network_security_config"
+47-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:35:9-69
+48        android:testOnly="true"
+49        android:theme="@style/CustomActionBarTheme" >
+49-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:36:9-52
+50        <uses-library
+50-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:37:9-39:40
+51            android:name="org.apache.http.legacy"
+51-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:38:13-50
+52            android:required="false" />
+52-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:39:13-37
+53
+54        <activity
+54-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:41:9-50:20
+55            android:name="com.mobatia.vkcretailer.activities.VKCSplashActivity"
+55-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:42:13-57
+56            android:screenOrientation="portrait"
+56-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:43:13-49
+57            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen" >
+57-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:44:13-92
+58            <intent-filter>
+58-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:45:13-49:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:46:17-69
+59-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:46:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:48:17-77
+61-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:48:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:51:9-54:61
+65            android:name="com.mobatia.vkcretailer.activities.LoginActivity"
+65-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:52:13-53
+66            android:label="@string/app_name"
+66-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:53:13-45
+67            android:screenOrientation="portrait" />
+67-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:54:13-49
+68        <!--
+69        <activity
+70            android:name=".activities.SalesOrderActivity"
+71            android:label="@string/app_name"
+72            android:screenOrientation="portrait" >
+73        </activity>
+74        -->
+75        <activity
+75-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:60:9-63:61
+76            android:name="com.mobatia.vkcretailer.activities.SignUpActivity"
+76-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:61:13-54
+77            android:label="@string/app_name"
+77-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:62:13-45
+78            android:screenOrientation="portrait" />
+78-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:63:13-49
+79        <activity
+79-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:64:9-67:61
+80            android:name="com.mobatia.vkcretailer.activities.SubDealerOrderDetails"
+80-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:65:13-61
+81            android:label="@string/app_name"
+81-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:66:13-45
+82            android:screenOrientation="portrait" />
+82-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:67:13-49
+83        <activity
+83-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:68:9-71:61
+84            android:name="com.mobatia.vkcretailer.activities.SalesOrderDetailActivity"
+84-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:69:13-64
+85            android:label="@string/app_name"
+85-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:70:13-45
+86            android:screenOrientation="portrait" />
+86-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:71:13-49
+87        <activity
+87-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:72:9-75:61
+88            android:name="com.mobatia.vkcretailer.activities.ReSubmitOrderActivity"
+88-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:73:13-61
+89            android:label="@string/app_name"
+89-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:74:13-45
+90            android:screenOrientation="portrait" />
+90-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:75:13-49
+91        <activity
+91-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:76:9-79:61
+92            android:name="com.mobatia.vkcretailer.activities.RetailersListViewOnSearch"
+92-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:77:13-65
+93            android:label="@string/app_name"
+93-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:78:13-45
+94            android:screenOrientation="portrait" />
+94-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:79:13-49
+95        <activity
+95-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:80:9-83:61
+96            android:name="com.mobatia.vkcretailer.activities.ArticleListActivity"
+96-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:81:13-59
+97            android:label="@string/app_name"
+97-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:82:13-45
+98            android:screenOrientation="portrait" />
+98-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:83:13-49
+99        <activity
+99-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:84:9-90:76
+100            android:name="com.mobatia.vkcretailer.activities.ProductDetailActivity"
+100-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:85:13-61
+101            android:configChanges="orientation|keyboardHidden|screenSize"
+101-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:86:13-74
+102            android:label="@string/app_name"
+102-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:87:13-45
+103            android:launchMode="singleInstance"
+103-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:88:13-48
+104            android:screenOrientation="portrait"
+104-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:89:13-49
+105            android:windowSoftInputMode="stateHidden|adjustPan" />
+105-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:90:13-64
+106        <activity
+106-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:91:9-94:61
+107            android:name="com.mobatia.vkcretailer.activities.FilterActivity"
+107-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:92:13-54
+108            android:label="@string/app_name"
+108-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:93:13-45
+109            android:screenOrientation="portrait" />
+109-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:94:13-49
+110        <activity
+110-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:95:9-98:61
+111            android:name="com.mobatia.vkcretailer.activities.SalesRepOrderList"
+111-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:96:13-57
+112            android:label="@string/app_name"
+112-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:97:13-45
+113            android:screenOrientation="portrait" />
+113-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:98:13-49
+114        <activity
+114-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:99:9-102:61
+115            android:name="com.mobatia.vkcretailer.activities.OrderedProductList"
+115-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:100:13-58
+116            android:label="@string/app_name"
+116-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:101:13-45
+117            android:screenOrientation="portrait" />
+117-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:102:13-49
+118        <activity
+118-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:104:9-107:61
+119            android:name="com.mobatia.vkcretailer.activities.SubDealerStatusListActivity"
+119-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:105:13-67
+120            android:label="@string/app_name"
+120-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:106:13-45
+121            android:screenOrientation="portrait" />
+121-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:107:13-49
+122        <activity
+122-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:108:9-111:61
+123            android:name="com.mobatia.vkcretailer.activities.SubDealerListByCategory"
+123-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:109:13-63
+124            android:label="@string/app_name"
+124-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:110:13-45
+125            android:screenOrientation="portrait" />
+125-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:111:13-49
+126        <activity
+126-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:112:9-115:61
+127            android:name="com.mobatia.vkcretailer.activities.CategoryOrderListDetails"
+127-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:113:13-64
+128            android:label="@string/app_name"
+128-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:114:13-45
+129            android:screenOrientation="portrait" />
+129-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:115:13-49
+130        <activity
+130-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:116:9-119:61
+131            android:name="com.mobatia.vkcretailer.activities.CartActivity"
+131-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:117:13-52
+132            android:label="@string/app_name"
+132-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:118:13-45
+133            android:screenOrientation="portrait" />
+133-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:119:13-49
+134        <activity
+134-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:120:9-123:61
+135            android:name="com.mobatia.vkcretailer.activities.SalesHeadOrderDetailsActivity"
+135-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:121:13-69
+136            android:label="@string/app_name"
+136-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:122:13-45
+137            android:screenOrientation="portrait" />
+137-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:123:13-49
+138        <!--
+139            <activity
+140            android:name=".activities.ProductDetailsActivityNew"
+141            android:label="@string/app_name"
+142            android:launchMode="singleInstance"
+143            android:screenOrientation="portrait"></activity>
+144        -->
+145
+146        <activity
+146-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:130:9-133:61
+147            android:name="com.mobatia.vkcretailer.activities.FilterActivityNew"
+147-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:131:13-57
+148            android:label="@string/app_name"
+148-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:132:13-45
+149            android:screenOrientation="portrait" />
+149-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:133:13-49
+150        <activity
+150-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:134:9-149:20
+151            android:name="com.mobatia.vkcretailer.activities.DashboardFActivity"
+151-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:135:13-58
+152            android:label="@string/app_name"
+152-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:136:13-45
+153            android:launchMode="singleInstance"
+153-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:137:13-48
+154            android:screenOrientation="portrait" >
+154-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:138:13-49
+155            <intent-filter>
+155-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:139:13-141:29
+156                <action android:name="android.intent.action.SEARCH" />
+156-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:140:17-71
+156-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:140:25-68
+157            </intent-filter>
+158
+159            <!-- <meta-data -->
+160            <!-- android:name="android.app.default_searchable" -->
+161            <!-- android:value="com.mobatia.vkcretailer.activities.DashboardFActivity" /> -->
+162            <meta-data
+162-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:146:13-148:54
+163                android:name="android.app.searchable"
+163-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:147:17-54
+164                android:resource="@xml/searchable" />
+164-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:148:17-51
+165        </activity>
+166
+167<!--                 <service android:name="com.mobatia.vkcretailer.manager.GoogleRegisterationService"></service> -->
+168
+169        <meta-data
+169-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:156:9-158:71
+170            android:name="com.google.android.maps.v2.API_KEY"
+170-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:157:13-62
+171            android:value="AIzaSyB43fH02aa9yPVzTpxayowKvGFNZr3GeLM" />
+171-->/home/mob-dt-and-04/Documents/Live Projects/VKC_Directory/VKC_Retail_Walkaroo/app/src/main/AndroidManifest.xml:158:13-68
+172        <!--
+173             <meta-data
+174            android:name="com.google.android.gms.version"
+175            android:value="@integer/google_play_services_version" />
+176        -->
+177        <activity
+177-->[com.google.android.gms:play-services-base:17.0.0] /home/mob-dt-and-04/.gradle/caches/transforms-3/4742c79f8e57127fa06836dcbfae2da8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+178            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+178-->[com.google.android.gms:play-services-base:17.0.0] /home/mob-dt-and-04/.gradle/caches/transforms-3/4742c79f8e57127fa06836dcbfae2da8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-base:17.0.0] /home/mob-dt-and-04/.gradle/caches/transforms-3/4742c79f8e57127fa06836dcbfae2da8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+180-->[com.google.android.gms:play-services-base:17.0.0] /home/mob-dt-and-04/.gradle/caches/transforms-3/4742c79f8e57127fa06836dcbfae2da8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+181
+182        <meta-data
+182-->[com.google.android.gms:play-services-basement:17.0.0] /home/mob-dt-and-04/.gradle/caches/transforms-3/774bd9bf967ebcf1cdaa80662e564a77/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+183            android:name="com.google.android.gms.version"
+183-->[com.google.android.gms:play-services-basement:17.0.0] /home/mob-dt-and-04/.gradle/caches/transforms-3/774bd9bf967ebcf1cdaa80662e564a77/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+184            android:value="@integer/google_play_services_version" />
+184-->[com.google.android.gms:play-services-basement:17.0.0] /home/mob-dt-and-04/.gradle/caches/transforms-3/774bd9bf967ebcf1cdaa80662e564a77/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+185    </application>
+186
+187</manifest>
